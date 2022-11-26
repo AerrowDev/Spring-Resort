@@ -1,0 +1,127 @@
+
+.container{
+    max-width: 1640px;
+    margin:auto;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+   background-image: url('bg.jpg');
+background-size: cover;
+background-position: center;
+}
+.reminder{
+    margin: 20px;
+    text-align: center;
+    background: #ce8458;
+}
+.touch-via{
+    display: grid;
+    text-align: center;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.Phone{
+    border: 1px solid #ce8458;
+    margin: 20px;
+}
+.E-mail{
+    border: 1px solid #ce8458;
+    margin: 20px;
+}
+.soc-med{
+    border: 1px solid #ce8458;
+    margin: 20px;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 10px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li {
+    display: inline-block;
+    margin: 0 7px;
+    list-style: none;
+}
+.navbar ul li a{
+text-decoration: none;
+color: #fff;
+}
+.content-block{
+    display: grid;
+}
+
+.about-image{
+justify-self: center;
+padding: 4%;
+position: relative;
+}
+.read-more{
+	margin: 20px 0;
+   text-align: center;
+}
+.view-accommodation{
+	margin: 20px 0;
+   text-align: center;
+}
+.view-rates{
+	margin: 20px 0;
+   text-align: center;
+}
+form input[ type ="submit"]{
+	width: 250px;
+}
+h1, h4, H2{
+    text-align: center;
+    padding: 10px 30px 10px 60px;
+}
+.info-text{
+    justify-self: center;
+    padding: 10px 30px 10px 60px;
+}
+p.footer{
+    justify-self: center;
+    padding: 0px 30px 10px 100px;
+}
+.location-contacts{
+    display: grid;
+    grid-template-columns: 33.3% 33.33% 33.3%;
+}
+div.copyright{
+    text-align: center;
+}
+.content{
+    width: 50%;
+    top: 50%;
+    z-index: 2;
+    transform: translateY(-40%);
+    position: absolute;
+    text-align: right;
+    color: #fff ;
+    font-size:40px;
+}
+@media (max-width: 523px){
+	.content{
+		font-size: 20;
+	}
+}
+@media (max-width: 600px){
+	.touch-via{
+		grid-template-columns: 100%;
+	}
+}
+@media (max-width: 600px){
+	.location-contacts{
+		grid-template-columns: 100%;
+	}
+}
+@media (max-width: 600px){
+        .content-block{
+            grid-template-columns: 100%;}
+        }
